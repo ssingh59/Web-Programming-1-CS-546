@@ -1,0 +1,42 @@
+h1{
+  text-align: justify;
+  color: aqua;
+}
+body{
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:50px;
+  margin-right:50px;
+  border: 1px coral;
+}
+form{
+  font-size:35px;
+  color: blue;
+}
+P{
+  font-size:20px;
+  color: aquamarine;
+}
+.success{
+  color: #28a745;
+}
+a{
+  font-size:20px;
+  color:cornflowerblue
+}
+.failure{
+  color: #dc3545;
+}
+
+#textToTest{
+  color: #dc3545;
+  font-size:35px;
+}
+main {
+  max-width: 85%;
+}
+
+header {
+  border-bottom: 1px solid;
+}
+

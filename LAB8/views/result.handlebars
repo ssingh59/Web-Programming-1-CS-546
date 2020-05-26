@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Palindrome Results!</title>
+  <link rel="stylesheet" href="/public/site.css">
+</head>
+
+<body>
+  <h1>The Palindrome Results!</h1>
+
+{{!-- if else Reference https://code-maven.com/handlebars-conditionals  --}}
+    {{#if isPalindrome}}
+      <p class="success">{{text}}= </p>
+        <p class="success">This string is Palindrome.</p>
+    {{else}}
+      <p class="failure">{{text}}= </p>
+        <p class="failure">This string is not Palindrome.</p>
+    {{/if}}
+
+  <a href="/">Try another palindrome</a>
+
+</body>
+
+</html>

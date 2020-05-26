@@ -1,0 +1,26 @@
+<main>
+          
+          <div id="div-id">
+            <form class="class-form" id ="login-form" action="/login" method="POST">
+                <p>
+                    <label for="username">Username: </label>
+                    <input type="text" name="username" id="username">
+                </p>
+
+                <p>
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password">
+                </p>
+
+                {{#if message}}
+                    <div><p>{{message}}</p></div>
+                {{/if}}
+
+                <p>
+                    <button id="login_button" type="submit" class="button1">Login</button>
+                </p>
+                
+            </form>
+          </div>
+
+</main>

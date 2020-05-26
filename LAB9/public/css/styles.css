@@ -1,0 +1,79 @@
+
+#palindrome
+{
+    color: black;
+    font-size: 20px;
+    color: blue;
+}
+.is-palindrome
+{
+    color: #0000FF;
+}
+.not-palindrome
+{
+    color: #FF0000;
+}
+#button1
+{
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+
+}
+.information
+{
+    color:chocolate;
+    font-size: 20px;
+}
+
+.attempts{
+    font-size: 20px;
+}
+
+#button1:hover
+{
+    background-color: lightgray;
+    color: black;
+}
+
+ol
+{
+    font-variant-ligatures: normal;
+}
+#email
+{
+    color: black;
+}
+#labelID 
+{
+color:chocolate;
+}
+
+h1
+{
+    color:chocolate;
+    font-size: px;
+    text-align: justify;
+}
+
+.mainBody
+{
+    text-align: justify;
+    margin-top: px;
+}
+
+
+#form_div
+{
+    color:lightgray;
+    font-size: 20px;
+}
+
+#errorDiv
+{
+    color:lightgray;
+    font-size: 20px;
+}
+
+
+
